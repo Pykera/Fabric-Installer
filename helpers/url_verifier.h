@@ -42,6 +42,7 @@ if (curl) {
     printf("Código de resposta do servidor: %ld\n", http_code);
 
     curl_easy_cleanup(curl);
+    url = "";
 
     if(http_code == 200) {
 
